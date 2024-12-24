@@ -27,7 +27,7 @@ The dynamics are numerically solved for using *MATLAB*'s built-in `ode89` Runge-
 ## Script Index
 
 > [!NOTE]
-> **Here, the general structure of this repository's [*Code*](Code/) section and workflow are described. For a more specific script description, look at each script specifically.**
+> **Here, the general structure of this repository's [*Code*](Code/) section and the workflow are described. For a script-specific description, look at each script specifically.**
 
 * [`odefun.m`](Code/odefun.m) and the [`eventfun*.m`](Code/) functions (one for each adaptation model) are the most basic functions, used by `ode89` as function handles to solve for the dynamics. [`odefun.m`](Code/odefun.m) contains the actual dynamics, while the [`eventfun*.m`](Code/) functions are used to track events througout the dynamics.
 
